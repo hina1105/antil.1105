@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hina Antil - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hina Antil</h1>
+    <p>Forensic Science Student</p>
+</header>
+
+<section>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is <strong>Hina Antil</strong>. I am currently pursuing my Bachelor's degree in 
+            <strong>Forensic Science</strong> from <strong>Geeta University, Panipat</strong>.
+        </p>
+
+        <h2>My Field</h2>
+        <p>
+            Forensic Science is a fascinating field that combines science and investigation to solve crimes.
+            I am passionate about learning techniques like fingerprint analysis, DNA testing, and crime scene investigation.
+        </p>
+
+        <h2>Gallery</h2>
+        <img src="https://images.unsplash.com/photo-1581091870622-9c6c7b5f3fcb" alt="Forensic Lab">
+        <img src="https://images.unsplash.com/photo-1581091012184-7f2c9d1c5b5c" alt="DNA Analysis">
+        <img src="https://images.unsplash.com/photo-1600959907703-125ba1374a12" alt="Investigation">
+
+        <h2>Contact</h2>
+        <p>Email: hinaantil@example.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Hina Antil | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
